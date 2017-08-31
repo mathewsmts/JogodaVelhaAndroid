@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void verificarGanhador() {//se as possibilidades deu verdadeiro ele exibi o ganhador
+    public void verificarGanhador() {//se as possibilidades deu verdadeiro ele exibe o ganhador
         if(verificarPossibilidades(true)){
         if (jogada % 2 == 1) {
             Toast.makeText(getBaseContext(),"VENCEDOR: JOGADOR - O",Toast.LENGTH_SHORT).show();
